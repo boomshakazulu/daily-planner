@@ -51,6 +51,6 @@ $(document).ready(function () {
     $(this).val(localStorage.getItem($(this).parent().attr('id')));
 });
   // TODO: Add code to display the current date in the header of the page.
-  currentDay= dayjs().format("MMMM-DD-YYYY") 
+  currentDay= dayjs().format("dddd, MMMM, D") 
   $("#currentDay").text(currentDay)
 });
